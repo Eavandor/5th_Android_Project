@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bg3"
+android:orientation="vertical"
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ahshf"
+    android:text="请选择轮播速度："
+    android:textSize="30dp"
+    android:layout_margin="20dp"
+    ></TextView>
+    <Button
+        android:id="@+id/spd0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停留7秒：慢慢悠悠"
+        android:textSize="30dp"></Button>
+    <Button
+        android:id="@+id/spd0.75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停留6秒：细细欣赏"
+        android:textSize="30dp"></Button>
+    <Button
+        android:id="@+id/spd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停留5秒：不快不慢"
+        android:textSize="30dp"></Button>
+
+    <Button
+        android:id="@+id/spd1.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停留4秒：目不暇接"
+        android:textSize="30dp"></Button>
+
+    <Button
+        android:id="@+id/spd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="停留3秒：万马奔腾"
+        android:textSize="30dp"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/agsdshf"
+        android:text="自定义轮播速度（必须大于3秒哦）："
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/specofied_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="点此输入一个大于3的正整数，作为自定义播放速度"
+
+        ></EditText>
+
+    <Button
+        android:id="@+id/subm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        android:textSize="30dp"></Button>
+
+</LinearLayout>
